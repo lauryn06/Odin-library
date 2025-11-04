@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;}
+    :root{
+        --color:black;
+        --backcolor:skyblue;
+        --extra:grey;
+    }
+    body{
+        background-color: var(--color);
+     
+    }
+    nav{
+        width: 100vw;
+        height: 10vh;
+        color: var(--color);
+        background-color: var(--extra);
+    }
+    a{
+        color: var(--c);
+        text-decoration: none;
+        padding-left: 2rem;
+    }
+    a:hover{
+        color: var(--backcolor);
+    }
+   table{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: var(--extra);
+   }
+   section{
+    color: var(--extra);
+   }
+   form{
+    display: flex;
+    flex-direction: column;
+    margin: 10rem;
+   border: 0.3rem solid grey;
+   border-radius:1rem ;
+   }
+   input, select{
+     margin: 1rem;
+     padding: 0.2rem;
+     border-radius: 0.9rem;
+   }
+  button{
+    margin: 1rem;
+    width: 5rem;
+    color: var(--color);
+    background-color: var(--extra);
+      padding: 0.2rem;
+     border-radius: 0.9rem;
+  }

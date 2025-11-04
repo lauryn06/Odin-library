@@ -7,6 +7,27 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
+       <nav>
+            <h2>The Library</h2>
+        <a href="Index.html">Book List</a>
+        <a href="addbook.html">Add a book</a>
+    </nav>
+        </table>
+    <form action="">
+        <p class="text"></p>
+        <input type="text" class="tittle" placeholder="Enter tittle of the book">
+        <input type="text" class="author" placeholder="Enter Author of the book">
+        <input type="number" class="page" placeholder="Enter number of pages">
+        <select name="status" class="status" id="book_status">
+            <option value="select">Select Status</option>
+            <option value="Read">Read</option>
+            <option value="Not-Read">Not Read</option>
+        </select>
+        <div>
+        <button type="submit" class="add">Add Book</button>
+        <button type="reset" class="clear">Clear</button>
+        </div>
+    </form>
     <script src="script.js"></script>
 </body>
 </html>
