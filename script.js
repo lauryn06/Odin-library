@@ -20,7 +20,7 @@ if (addButton) {
       // Save back to localStorage
       localStorage.setItem("books", JSON.stringify(books));
 
-      message.textContent = "✅ Book added successfully!";
+      message.textContent = "Book added successfully!";
       message.style.color = "green";
 setTimeout(()=>{
     message.textContent="";
@@ -31,7 +31,7 @@ setTimeout(()=>{
       document.querySelector(".page").value = "";
       document.querySelector(".status").value = "";
     } else {
-      message.textContent = "❌ Please fill in all fields!";
+      message.textContent = "Please fill in all fields!";
       message.style.color = "red";
 
       setTimeout(()=>{
